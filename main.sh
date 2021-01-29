@@ -15,7 +15,7 @@ echo "Rename folder..."
 mv sqlite-tools-linux-x86-3340100 sqlite3
 
 echo "Set up sqlite3 alias..."
-alias sqlite3="$HOME/SQLiteopen/sqlite3/sqlite3"
+alias sqlite3="$HOME/sqlite3/sqlite3"
 
 echo "Running bash setup..."
 source ./.bashrc
