@@ -1,5 +1,11 @@
 #!/bin/bash
 
+echo "Remove current .git folder..."
+rm -rf .git
+
+echo "Initialize Git...
+git init
+
 echo "Remove existing sqlite3..."
 rm -rf $HOME/sqlite3
 rm -rf $HOME/sqlite-tools-linux-x86-3340100
