@@ -1,11 +1,11 @@
 
 # SQLite starter project
 
-This project is specifically intended for use with [repl.it](repl.it). It allows you to download and use whatever version of sqlite3 that you wish, without having to worry about what is installed on a REPL.
+This project is specifically intended for use with [repl.it](https://repl.it). It allows you to download and use whatever version of sqlite3 that you wish, without having to worry about what is installed on a REPL.
 
 ## Usage
 
-1. Start a new `bash` REPL on [repl.it](repl.it)
+1. Start a new `bash` REPL on [repl.it](https://repl.it)
 
 2. Remove `main.sh` from the REPL
 ```
