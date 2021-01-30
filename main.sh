@@ -17,9 +17,8 @@ mv $HOME/sqlite-tools-linux-x86-3340100 $HOME/sqlite3
 echo "Set up sqlite3 alias..."
 alias sqlite3="$HOME/sqlite3/sqlite3"
 
-echo "Running bash setup..."
-source ./.bashrc
-
 echo "Removing sqlite3 download..."
 rm -f $HOME/sqlite3.zip
+
+echo "To finish setup, run the following command:> source ./.bashrc"
 
