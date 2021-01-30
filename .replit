@@ -1,2 +1,3 @@
+run = ""
 language = "bash"
-run = "sh ./main.sh"
+onBoot = "sh ./main.sh && sqlite3=\"$HOME/sqlite3/sqlite3\""
