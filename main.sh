@@ -3,7 +3,7 @@
 echo "Remove current .git folder..."
 rm -rf .git
 
-echo "Initialize Git...
+echo "Initialize Git..."
 git init
 
 echo "Remove existing sqlite3..."
