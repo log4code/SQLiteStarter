@@ -7,13 +7,10 @@ This project is specifically intended for use with [repl.it](https://repl.it). I
 
 1. Start a new `bash` REPL on [repl.it](https://repl.it) and import this project from GitHub: https://github.com/log4code/SQLiteStarter.git
 
-2. Run setup.sh
-```
-sh ./setup.sh
-```
+2. Click 'Run' and wait for prompt
 
-3. Alias the downloaded sqlite3 command line tools
-```
-source ./.bashrc
-```
+## Don't have a repl.it account? 
 
+Just go to the link below and your all set!
+
+[https://repl.it/@log4code/SQLiteStarter](https://repl.it/@log4code/SQLiteStarter)
