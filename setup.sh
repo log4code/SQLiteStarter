@@ -1,30 +1,23 @@
 #!/bin/bash
 
-echo "Remove current .git folder..."
-rm -rf .git
-
-echo "Initialize Git..."
-git init
-
-echo "Remove existing sqlite3..."
-rm -rf $HOME/sqlite3
-rm -rf $HOME/sqlite-tools-linux-x86-3340100
-rm -f $HOME/sqlite3.zip
+rm -rf ./sqlite3
 
 echo "Download sqlite3..."
-curl https://www.sqlite.org/2021/sqlite-tools-linux-x86-3340100.zip --output $HOME/sqlite3.zip
+curl https://www.sqlite.org/2021/sqlite-tools-linux-x86-3340100.zip --output sqlite3.zip
 
 echo "Unzip download..."
-unzip $HOME/sqlite3.zip -d $HOME
+unzip ./sqlite3.zip -d .
 
 echo "Rename folder..."
-mv $HOME/sqlite-tools-linux-x86-3340100 $HOME/sqlite3
+mv ./sqlite-tools-linux-x86-3340100 ./sqlite3
 
 echo "Set up sqlite3 alias..."
 alias sqlite3="$HOME/sqlite3/sqlite3"
 
 echo "Removing sqlite3 download..."
-rm -f $HOME/sqlite3.zip
+rm -f ./sqlite3.zip
+
+chmod +x ./main.sh
 
 echo "To finish setup, run the following command:> source ./.bashrc"
 
