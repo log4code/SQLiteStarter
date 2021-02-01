@@ -9,3 +9,5 @@ mv ./sqlite-tools-linux-x86-3340100 ./sqlite3
 rm -f ./sqlite3.zip
 
 chmod +x ./main.sh
+
+clear

@@ -1,3 +1,3 @@
-run="bash --rcfile ./.bashrc"
+run="sh ./main.sh && bash --rcfile ./.bashrc"
 language="bash"
 onBoot="sh ./setup.sh"
